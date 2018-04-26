@@ -1,0 +1,23 @@
+h1 {text-align:center; background-color: red; color:White}
+
+a {text-decoration: none;}
+h3 {display: block;font-size: 200%;
+    margin-top:225px}
+img {float: right; margin-bottom:30px;
+    }
+#sidebar{background-color:DodgerBlue;
+        font-size: 200%;
+        font-weight: bold;
+        text-transform: none;
+    float: left}
+#sidebar li{list-style-type: none;}
+
+#footer{background-color: red;box-sizing: padding-box;
+        /* height: 50px; width:50px;*/display:inline-block;}
+#national-icons img{padding:20px}
+
+@media only screen
+and(max-width:600px)
+{div.neutral{display: none}
+h2{font-size:75%}}
+/*Doesn't work
